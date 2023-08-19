@@ -7,7 +7,8 @@ const app = express();
 
 app.use(express.urlencoded({ extended: false }));
 let student = 
-       [{"date":'20-08-2023'},[{"std":7,"present":7,"absent":7,"total":14},{"std":8,"present":11,"absent":5,"total":16}]]
+           {'20-08-2023':[{"std":7,"present":7,"absent":7,"total":14},{"std":8,"present":11,"absent":5,"total":16}]};
+
 
 ;
 app.get('/', (req, res) => {
