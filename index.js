@@ -14,7 +14,12 @@ let student =
     '16-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
     '15-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
     '14-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
-    '13-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}]};
+    '13-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
+          '12-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
+          '11-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
+          '10-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
+          '09-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}],
+          '08-08-2023':[{"std":1,"present":7,"absent":7,"total":14},{"std":2,"present":7,"absent":7,"total":14},{"std":3,"present":11,"absent":5,"total":16}]};
 ;
 
 
