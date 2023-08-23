@@ -24,9 +24,6 @@ let student =
 
 
 ;
-app.get('/', (req, res) => {
-    res.json(student);
-});
 
 let volunteer = {'23-08-2023':[
     {
@@ -105,6 +102,7 @@ let volunteer = {'23-08-2023':[
       "department": "ce"
     }
   ]};
+
 app.get('/', (req, res) => {
     res.json(student);
 });
