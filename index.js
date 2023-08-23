@@ -28,6 +28,91 @@ app.get('/', (req, res) => {
     res.json(student);
 });
 
+let volunteer = {'23-08-2023':[
+    {
+      "name": "Aayushi Rajput",
+      "institute": "rpcp",
+      "department": "bpharm"
+    },
+    {
+      "name": "Abhishek Darji",
+      "institute": "depstar",
+      "department": "cs"
+    },
+    {
+      "name": "Aryan Upadhyay",
+      "institute": "depstar",
+      "department": "it"
+    },
+    {
+      "name": "Honey Bekawala",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Jainsi Patel",
+      "institute": "pdpias",
+      "department": "bsc"
+    },
+    {
+      "name": "Jay Patel",
+      "institute": "rpcp",
+      "department": "bpharm"
+    },
+    {
+      "name": "Jiya Shah",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Kalpit Shah",
+      "institute": "cspit",
+      "department": "ce"
+    },
+    {
+      "name": "Khushi Bhanushali",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Khushi Patel",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Prapti Kanbar",
+      "institute": "rpcp",
+      "department": "bpharm"
+    },
+    {
+      "name": "Saloni Patel",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Tisha Kuralwala",
+      "institute": "rpcp",
+      "department": "bpharm"
+    },
+    {
+      "name": "Vanshi Bhatt",
+      "institute": "arip",
+      "department": "bpt"
+    },
+    {
+      "name": "Yagnik Poshiya",
+      "institute": "cspit",
+      "department": "ce"
+    }
+  ]};
+app.get('/', (req, res) => {
+    res.json(student);
+});
+
+app.get('/volunteer', (req, res) => {
+    res.json(volunteer);
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
